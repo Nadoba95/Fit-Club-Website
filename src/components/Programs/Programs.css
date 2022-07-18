@@ -5,7 +5,8 @@
   gap: 2rem;
 }
 
-.programs__header {
+.programs__header,
+.plans__header {
   display: flex;
   gap: 5rem;
   justify-content: center;

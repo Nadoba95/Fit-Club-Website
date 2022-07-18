@@ -29,17 +29,14 @@ function Reasons() {
         <div className="details">
           <div>
             <img src={tick} alt="tick" />
-
             <span>over 140+ expert coach's</span>
           </div>
           <div>
             <img src={tick} alt="tick" />
-
-            <span>train smarter and faster and before </span>
+            <span>train smarter and faster than before </span>
           </div>
           <div>
             <img src={tick} alt="tick" />
-
             <span>1 free program for new member</span>
           </div>
           <div>

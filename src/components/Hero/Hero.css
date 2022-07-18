@@ -3,6 +3,12 @@
   justify-content: space-between;
 }
 
+.blur-hero {
+  width: 22rem;
+  height: 30rem;
+  z-index: -5;
+}
+
 .hero__left {
   padding: 1.5rem 1.5rem 1.5rem 2rem;
   flex: 3;
@@ -38,6 +44,7 @@
   width: 5.4rem;
   height: 80%;
   border-radius: 3rem;
+  animation: slider 3s linear;
 }
 
 .the-best-ad > span {
@@ -173,7 +180,7 @@
 }
 
 .calories > div > :nth-child(1) {
-  color: var(--grey);
+  color: var(--gray);
 }
 
 .calories > div > :nth-child(2) {

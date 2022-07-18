@@ -12,9 +12,9 @@ function Programs() {
       </div>
 
       <div className="programs__categories">
-        {programsData.map((program) => {
+        {programsData.map((program, i) => {
           return (
-            <div key={Math.random() * 100} className="category">
+            <div key={i} className="category">
               {program.image}
               <span>{program.heading}</span>
               <span>{program.details}</span>

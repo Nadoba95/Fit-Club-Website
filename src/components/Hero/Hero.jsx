@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+import NumberCounter from "number-counter";
 import Header from "../Header/Header";
 import "./Hero.css";
 
@@ -5,7 +7,6 @@ import hero_image from "../../assets/hero_image.png";
 import hero_image_back from "../../assets/hero_image_back.png";
 import Heart from "../../assets/heart.png";
 import Calories from "../../assets/calories.png";
-import { motion } from "framer-motion";
 
 function Hero() {
   const transition = { type: "spring", duration: 3 };
@@ -41,15 +42,21 @@ function Hero() {
 
         <div className="figures">
           <div>
-            <span>+140</span>
+            <span>
+              <NumberCounter start={100} end={140} preFix={"+"} delay={4} />
+            </span>
             <span>expert coach's</span>
           </div>
           <div>
-            <span>+978</span>
+            <span>
+              <NumberCounter start={800} end={978} preFix={"+"} delay={4} />
+            </span>
             <span>members joined</span>
           </div>
           <div>
-            <span>+50</span>
+            <span>
+              <NumberCounter start={30} end={50} preFix={"+"} delay={3} />
+            </span>
             <span>fitness programs</span>
           </div>
         </div>

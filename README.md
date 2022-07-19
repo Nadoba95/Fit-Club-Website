@@ -1,3 +1,7 @@
+## Links:
+
+- Live site: [https://fit-club-website-nadoba95.netlify.app/](https://fit-club-website-nadoba95.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

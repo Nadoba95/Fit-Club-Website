@@ -57,3 +57,20 @@
   background-color: var(--orange);
   color: white;
 }
+
+@media (max-width: 768px) {
+  .join-us {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .join-left {
+    font-size: x-large;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .join-right {
+    padding: 2rem;
+  }
+}

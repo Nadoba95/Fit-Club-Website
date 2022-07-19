@@ -81,3 +81,41 @@
   cursor: pointer;
   fill: white;
 }
+
+@media (max-width: 768px) {
+  .testimonials {
+    flex-direction: column;
+  }
+
+  .test-left > :nth-child(2),
+  .test-left > :nth-child(3) {
+    font-size: xx-large;
+  }
+
+  .test-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .test-right > div:nth-child(1),
+  .test-right > div:nth-child(2),
+  .test-right > div:nth-child(3) {
+    position: relative;
+    display: none;
+  }
+
+  .test-right > img {
+    position: relative;
+    top: 0;
+    right: 0;
+    align-self: center;
+  }
+
+  .arrows {
+    position: relative;
+    left: 0;
+  }
+}

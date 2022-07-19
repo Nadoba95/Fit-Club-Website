@@ -10,6 +10,7 @@ import Calories from "../../assets/calories.png";
 
 function Hero() {
   const transition = { type: "spring", duration: 3 };
+  const mobile = window.innerWidth <= 768 ? true : false;
 
   return (
     <div className="hero" id="home">
@@ -19,8 +20,8 @@ function Hero() {
 
         <div className="the-best-ad">
           <motion.div
-            initial={{ left: "238px" }}
-            whileInView={{ left: "8px" }}
+            initial={{ left: mobile ? "65%" : "73%" }}
+            whileInView={{ left: "2%" }}
             transition={{ ...transition, type: "tween" }}
           ></motion.div>
           <span>the best fitness club in the town</span>

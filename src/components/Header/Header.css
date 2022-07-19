@@ -20,3 +20,28 @@
   cursor: pointer;
   color: var(--orange);
 }
+
+.bars-container {
+  background-color: var(--appColor);
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.bars {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .header > :nth-child(2) {
+    position: fixed;
+    right: 2rem;
+    z-index: 99;
+  }
+
+  .header-menu {
+    flex-direction: column;
+    background-color: var(--appColor);
+    padding: 1.5rem;
+  }
+}

@@ -90,3 +90,41 @@
 .partners > img {
   width: 2.5rem;
 }
+
+@media (max-width: 768px) {
+  .reasons {
+    flex-direction: column;
+  }
+
+  .reasons__left {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .reasons__left > :nth-child(1) {
+    width: 7rem;
+    height: 17rem;
+  }
+
+  .reasons__left > :nth-child(2) {
+    width: 15rem;
+    height: 10rem;
+  }
+
+  .reasons__left > :nth-child(3) {
+    width: 7rem;
+    position: absolute;
+    left: 8.5rem;
+  }
+
+  .reasons__left > :nth-child(4) {
+    width: 7rem;
+    height: 6rem;
+    position: absolute;
+    left: 8.5rem;
+    top: 7rem;
+  }
+}
